@@ -156,10 +156,8 @@
                 "source": {
                     "type": "Git",
                     "git": {
-                        "uri": "${SOURCE_REPOSITORY_URL}",
-                        "ref": "${SOURCE_REPOSITORY_REF}"
-                    },
-                    "contextDir": "${CONTEXT_DIR}"
+                        "uri": "${SOURCE_REPOSITORY_URL}"
+                    }
                 },
                 "strategy": {
                     "type": "Source",
